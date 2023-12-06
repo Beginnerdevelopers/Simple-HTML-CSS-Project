@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.all_contain {
+}
+.border {
+  background-color: black;
+  height: 100px;
+}
+.banner {
+  height: 300px;
+  width: 0 auto;
+  background-color: rgb(92, 65, 117);
+}
+
+.box_contain {
+  width: 80%;
+  margin: 70px auto;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 200px;
+  float: left;
+  margin-left: 70px;
+}
+
+.box_contain::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.rectangle {
+  width: 80%;
+  margin: 70px auto;
+}
+.rec {
+  width: 400px;
+  height: 50px;
+  background-color: blue;
+  float: left;
+  margin: 5px;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+.rectangle::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.foter {
+  height: 40px;
+  background-color: aqua;
+  margin: 10px;
+  border-radius: 10px;
+}

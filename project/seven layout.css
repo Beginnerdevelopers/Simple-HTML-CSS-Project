@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.full_screen {
+  border: 3px solid rgb(95, 69, 187);
+}
+.header {
+  border: 3px solid rgb(190, 112, 112);
+  padding: 10px;
+}
+.logo {
+  height: 30px;
+  background-color: aquamarine;
+}
+.container {
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+.left_panal {
+  border: 2px solid gray;
+  padding: 10px;
+}
+.box {
+  width: 20%;
+
+  height: 400px;
+  background-color: rgb(105, 48, 48);
+  float: left;
+}
+.right_panal {
+  border: 2px solid black;
+}
+.banner {
+  background-color: brown;
+  height: 30px;
+  width: 75%;
+  float: rigt;
+}

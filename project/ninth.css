@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.full {
+  border: 3px solid red;
+}
+.header {
+  border: 3px solid yellow;
+}
+.bar {
+  background-color: black;
+  height: 60px;
+}
+h3 {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+  text-shadow: 2px 2px red;
+}
+.nav h3 {
+  color: blue;
+}
+.nav {
+  margin-top: 10px;
+  background-color: pink;
+  height: 60px;
+}
+.contain {
+  border: 3px solid blue;
+}
+.left_panal {
+  background-color: pink;
+  margin: 100px auto;
+  max-width: 970px;
+  min-width: 250px;
+}
+
+.infobox {
+  width: 33.33%;
+  min-height: 250px;
+  float: left;
+}
+.infobox:nth-child(1) {
+  background-color: black;
+}
+.infobox:nth-child(2) {
+  background-color: green;
+}
+.infobox:nth-child(3) {
+  background-color: pink;
+}

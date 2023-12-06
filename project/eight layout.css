@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.full_screed {
+  border: 3px solid rgb(214, 129, 129);
+}
+.header {
+  border: 3px solid rgb(99, 61, 61);
+  padding: 10px;
+}
+.bar {
+  height: 30px;
+  background-color: aquamarine;
+}
+
+.four {
+  border: 2px solid brown;
+}
+
+.boxfix {
+  background-color: black;
+  height: 150px;
+  width: 200px;
+  float: left;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+.box_container {
+  border: 3px solid pink;
+}
